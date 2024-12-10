@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Events Timeline</title>
+    <style>
+      body {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYUI2Cuk8usOmpXfPzEbRER3kxTbUsHtfcoA&s);
+        width: 100%;
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      h1, h2, h4 {
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7); /* semi-transparent background */
+        padding: 10px;
+      }
+      p {
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      .timeline img {
+        width: 100%; /* Makes images responsive */
+        height: auto;
+      }
+      /* Flexbox Layout for Timeline */
+      .timeline-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        flex-wrap: wrap;
+      }
+      .timeline-text {
+        max-width: 300px;
+        margin-right: 20px;
+        text-align: left;
+        color: black;
+      }
+      iframe {
+        width: 100%;
+        max-width: 560px;
+        height: 315px;
+        border: none;
+      }
+      /* Media Query for Mobile Devices */
+      @media (max-width: 600px) {
+        .timeline-text {
+          text-align: center;
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+        iframe {
+          width: 100%;
+          height: auto;
+        }
+      }
+      /* Media Query for Tablets and Larger Screens */
+      @media (min-width: 600px) {
+        .timeline-section {
+          justify-content: space-between;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><u><em>HISTORICAL EVENTS TIMELINE</em></u></h1>
+      <p>A journey through important moments in history...</p>
+    </header>
+
+    <section class="timeline">
+      <h1><u>Historical Chronology</u></h1>
+
+      <!-- First Timeline Section -->
+      <div class="timeline-section">
+        <div class="timeline-text">
+          <h2><a href="FINAL.html" target="_blank" style="color:white;">1. Ancient Civilizations (3000 BCE - 500 CE)</a></h2>
+        </div>
+        <img src="https://news.uchicago.edu/sites/default/files/styles/full_width/public/images/2022-11/ancient-civ-poster.jpg?itok=w_j4HQ-b" alt="Ancient Civilizations">
+      </div>
+
+      <!-- Second Timeline Section -->
+      <div class="timeline-section">
+        <div class="timeline-text">
+          <h2><a href="FINALTEST.html" target="_blank" style="color:white;">2. Middle Ages (500 - 1500 CE)</a></h2>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiP6eqP265gWOzY2vzdV9c1Ri1rObr7Ak90A&s" alt="Middle Ages">
+      </div>
+
+      <!-- Third Timeline Section -->
+      <div class="timeline-section">
+        <div class="timeline-text">
+          <h2> <a href="early.html" target="_blank" style="color:white;">3. Early Modern Period (1500 - 1800 CE)</a></h2>
+        </div>
+        <img src="https://cdn.britannica.com/21/143621-050-D0409B47/Declaration-of-Independence-canvas-rotunda-John-Trumbull-July-4-1776.jpg?w=400&h=300&c=crop" alt="Early Modern Period">
+      </div>
+
+      <!-- Fourth Timeline Section -->
+      <div class="timeline-section"> 
+        <div class="timeline-text">
+          <h2><a href="modern.html" target="_blank" style="color:white;">4. Modern Period (1800 - 2000 CE)</a></h2>
+        </div>
+        <img src="https://saaot.edu/wp-content/uploads/2024/03/main-qimg-9c7371ceb2b55cb890ea50971064ca1b-lq.jpeg" alt="Modern Period">
+      </div>
+
+      <!-- Fifth Timeline Section -->
+      <div class="timeline-section">
+        <div class="timeline-text">
+          <h2><a href="contemporary.html" target="_blank" style="color:white;">5. Contemporary Period (2000 CE - Present)</a></h2>
+        </div>
+        <img src="https://sp-uploads.s3.amazonaws.com/uploads%2Fservices%2F4008937%2F20220528070331_6291c9437e5bf_contemporary_periodpage0.jpg" alt="Contemporary Period">
+      </div>
+
+      <!-- Overview Video Section -->
+      <div class="container">
+        <h1 align="center">OVERVIEW OF WORLD HISTORY</h1>
+        <iframe src="https://www.youtube.com/embed/ha1NneZGm7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+  </body>
+</html>
+  
